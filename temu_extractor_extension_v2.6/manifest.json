@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Temu Extractor",
+  "version": "2.6",
+  "description": "Phase-based extractor for Temu: Product info, then Seller Name, then Business Name.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.temu.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
